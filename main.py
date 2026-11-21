@@ -3,12 +3,12 @@ import os
 
 
 POEM = """I stop the kettle before it screams,
-then hold the match my friend would strike,
-keep the door I meant to open shut.
+slide the match back beneath its darkness,
+close the door my friend had begun to open.
 
-Not retreat. A hand can also mean no:
-I stay beside the ticking stove,
-choosing the hour I refuse to enter."""
+A hand can also mean no. I stay
+beside the ticking stove, guarding
+the hour I have chosen not to enter."""
 
 target = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")) / "entry.txt"
 target.parent.mkdir(parents=True, exist_ok=True)
